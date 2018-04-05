@@ -1,186 +1,62 @@
-
 <!DOCTYPE HTML>
-<html lang="PT-BR">
-    <head>
-        <title>Formulário FW1</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Resposta da Lista de Exercício 04 - Professor Wilton de Paula Filho">
-        <meta name="keywords" content="html,css,pagina sem css,página,index">
-        <meta name="author" content="Weliton de Souza">
-        <link rel="icon" href="icone.png">
-        <script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
-        <script src="//cdn.rawgit.com/gilsonsouzah/ab6b22d5706599226464ef167151c4ff/raw/5444d0e5c3e09df5a2c1ff503a1359529e745bcd/evaldatob.js" type="text/javascript"></script>
-    </head>
-        <body topmargin="0" leftmargin="0" rightmargin="0" bgcolor="#FCFCFC">
-         
-<!-- CABEÇALHO DA PÁGINA -->
-            <table width="100%" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td valign="center" align="center" bgcolor="#62B6CB" height="100px" width="100%">
-                        <img src="icone.png" width="100px" align="middle">
-                    </td>
-                </tr>
-            </table>
-                      
-<!-- INÍCIO DO FORMULÁRIO -->
-            <form>
-                <table border="0" align="center" cellspacing="0" cellpadding="4">
-                    <tr>
-                        <td colspan="2" align="middle" bgcolor="#FCFCFC">
-                            <font face="Georgia" size="6">
-                                <strong>Formulário FW1</strong>
-                            </font> 
-                        </td>
-                    </tr>
-                <br>
-                    
-<!-- INFORMAÇÕES PESSOAIS -->
-                    <tr>
-                        <td colspan="2" bgcolor="#305252">
-                            <font color="#FFF">
-                                <b>Informações Pessoais</b>
-                            </font>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#9DDBAD">
-                            Nome completo:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <input type="text" size="50px" placeholder="Utilize apenas letras e espaços">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#9DDBAD">
-                            Data de nascimento:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <input type="date">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#9DDBAD">
-                            Sexo:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <input type="radio" name="sex" value="male"> Masculino
-                            <input type="radio" name="sex" value="female"> Feminino
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#9DDBAD">
-                            Tipo sanguíneo:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <select name="Tipo sanguíneo">
-                                <option value="Selecione">Selecione</option>
-                                <option value="A+">A+</option>
-                                <option value="A-">A-</option>
-                                <option value="B+">B+</option>
-                                <option value="B-">B-</option>
-                                <option value="AB+">AB+</option>
-                                <option value="AB-">AB-</option>
-                                <option value="O+">O+</option>
-                                <option value="O-">O-</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#9DDBAD">
-                            Mini-Currículo:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <textarea rows="4" cols="52" name="curriculo" placeholder="Digite apenas informações relevantes"></textarea>
-                        </td>
-                    </tr>
-                    
-<!-- LOGRADOURO -->
-                    <tr>
-                        <td colspan="2" bgcolor="#305252">
-                            <font color="#FFF">
-                                <b>Logradouro</b>
-                            </font>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2" bgcolor="#9DDBAD">
-                            Endereço completo:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <input type="text" placeholder="Nome da rua">
-                            <input type="number" placeholder="Número">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#F0F8FF">
-                            <input type="text" placeholder="Bairro">
-                            <input type="text" placeholder="Cidade">
-                        </td>
-                    </tr>
-                    
-<!-- INFORMAÇÕES PARA CONTATO -->
-                    <tr>
-                        <td colspan="2" bgcolor="#305252">
-                            <font color="#FFF">
-                                <b>Informações para contato</b>
-                            </font>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#9DDBAD">
-                            Telefone Celular:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <input type="number" size="50px" placeholder="(99) 9 9999-9999">
-                    <tr> 
-                        <td bgcolor="#9DDBAD">
-                            Telefone Fixo:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <input type="number" size="50px" placeholder="(99) 9999-9999">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#9DDBAD">
-                            Email:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <input id="enderecoEmail" type="email" size="50px" placeholder="exemplo@exemplo.com">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#9DDBAD">
-                            Homepage:
-                        </td>
-                        <td bgcolor="#F0F8FF">
-                            <input type="url" size="50px" placeholder="https://www.exemplo.com.br">
-                        </td>
-                    </tr>
-                    
-<!-- BOTÕES -->
-                    <tr>
-                        <td colspan="2" bgcolor="#305252" align="middle">
-                            <input type="button" value="Cadastrar">
-                            <input type="button" value="Ajuda">
-                            <input type="reset" value="Limpar">
-                            <input type="button" value="Cancelar">
-                        </td>
-                    </tr>
-               </table>
-          </form>
-          <br>
-          
-<!-- RODAPÉ -->
-        <table align="center" cellspacing="0" cellpadding="0" width="100%">
-            <tr>
-                <td bgcolor="#62B6CB" align="center" height="40px" width="100%">
-                    <font color="#FFF">
-                        Página desenvolvida por <b>Weliton de Souza</b>
-                        <br>
-                        All rights reserved ©
-                    </font>
-                </td>
-            </tr> 
-        </table>
-    </body>
+<html>
+	<head>
+		<title>Hi! I'm Weliton Souza</title>
+		<meta charset="utf-8" />
+		<meta property="og:title" content="Hi! I'm Gilson Souza"/>
+		<meta property="og:image" content="//gilson.udisoft.me/images/avatar.jpg"/>
+		<meta property="og:description" content="FullStack Developer and Infrastructure Specialist"/>
+		<meta property="og:url" content="//gilson.udisoft.me" />
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    		<link rel="shortcut icon" href="images/favicon.ico"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Gilson F. B. Souza</h1>
+							<p>FullStack Developer and Infrastructure Specialist<br/><a href="https://vitta.me"><span>Vitta</span></a> | <span>UdiSoft</span></p>
+						</header>
+						<hr />						
+						<footer>
+							<ul class="icons">
+								<li><a href="https://github.com/gilsonsouzah" class="fa-github">Github</a></li>
+								<li><a href="https://br.linkedin.com/in/gilsonfbsouza/en" class="fa-linkedin">LinkedIn</a></li>
+								<li><a href="https://fb.com/gsouzafernandes" class="fa-facebook">Facebook</a></li>
+								<li><a href="https://www.instagram.com/gilsonsouzah/" class="fa-instagram">Instagram</a></li>
+								<li><a href="mailto:gilson.souza@vitta.me" class="fa-envelope">E-mail</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>2016 &copy; Gilson Souza</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
 </html>
