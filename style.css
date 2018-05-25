@@ -1,0 +1,191 @@
+@font-face {
+    font-family: lobster;
+    src: url(IMFeFCsc28P.ttf);
+}
+
+body {
+        background: radial-gradient(circle, #ffddbb, white);
+    margin: 0px;
+}
+
+nav {
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    margin: 10px 0px;
+    transform: translateX(-90%);
+    transition: all 0.5s;
+}
+
+li:hover {
+    transform: translateX(0%);
+}
+
+ul a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #efefef;
+    text-align: right;
+    padding-right: 30px;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 0px 4px 4px 0px;
+}
+
+header h1 {
+    font-family: lobster;
+    letter-spacing: 50px;
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    line-height: px;
+}
+
+h1 {
+    font-family: NotoSans;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1.5em;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.navA {
+    background-color: gray;
+}
+
+.navB {
+    background-color: gray;
+}
+
+.navC {
+    background-color: gray;
+}
+
+.navD {
+    background-color: gray;
+}
+
+.navE {
+    background-color: gray;
+}
+
+.navF {
+    background-color: gray;
+}
+
+@media screen and (max-width: 1100px) {
+    header {
+        background-image: url(banner_640.jpg);
+        height: 128px;
+        letter-spacing: 0px
+    }
+    nav {
+        top: 138px;
+    }
+    h1 {
+        font-size: 30px;
+        border-bottom: 2px solid white;
+        margin: 0px 50px;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1280px) {
+    header {
+        background-image: url(banner_640.jpg);
+        height: 128px;
+    }
+    nav {
+        top: 138px;
+    }
+    h1 {
+        font-size: 30px;
+        border-bottom: 2px solid white;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1900px) {
+    header {
+        background-image: url(banner_1280.jpg);
+        height: 256px;
+    }
+    nav {
+        top: 266px;
+    }
+    h1 {
+        font-size: 50px;
+        border-bottom: 2px solid white;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (min-width: 1901px){
+    header {
+        background-image: url(banner_1920.jpg);
+        height: 384px;
+    }
+    nav {
+        top: 394px;
+    }
+    h1 {
+        font-size: 40px;
+        border-bottom: 2px solid white;
+        margin: 0px 10px;
+    }
+}
+
+section {
+    text-align: justify;
+    font-family: monospace;
+    width: 1000px;
+    margin: 30px auto 0px auto;
+}
+
+section h1 {
+    color: black;
+    border-bottom: 2px solid purp;
+    font-size: 30px;
+}
+
+.ti {
+    padding-bottom: 200px;
+}
+
+.ja {
+    padding-bottom: 200px;
+}
+
+.va {
+    padding-bottom: 200px;
+}
+
+.va img {
+    opacity: 0.2;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #191919;
+    color: white;
+    height: 540px;
+    line-height: 30px;
+}
